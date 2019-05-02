@@ -550,7 +550,7 @@ var Game = {
         result += (seconds < 10) ? ":0" + seconds : ":" + seconds; 
 
         if(seconds % 10 == 0) {
-            score += 100;
+            score += 300;
         }
 
         me.timeLabel.text = result;
