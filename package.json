@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node gulpfile.js"
+    "start": "node gulpfile.js",
+    "postinstall": "gulp default"
   },
   "dependencies": {
     "gulp": "^4.0.1",
