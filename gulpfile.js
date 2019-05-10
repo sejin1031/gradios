@@ -8,7 +8,7 @@ var Paths = {
 
 gulp.task('server', function() {
   gulp.src(Paths.HERE).pipe(webserver({
-    open:'http://localhost:3000',
+    open:'https://hyugradius.herokuapp.com/',
     livereload:true,
     directoryListing: false,
     port:3000
